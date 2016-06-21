@@ -10,7 +10,7 @@ You will want to replace the "/Users/macBook/EyeWire_Raw_Data/" with the file pa
 
 Once you have replaced the file path with your own you can simply run the script and it will start downloading the information. The script will pull a hundred volumes from the Eye Wire API before terminating. To change the number of volumes being pulled simply edit the "while counter<100:" expression at the begging of the script.
 
-Inside the folder targeted by the file path you specified earlier the script will create a sub-directory of each of the volumes it pulls. Inside each volume will be eight chunks that will each have 128 individual 128x128 images. Each chunk folder is given a name with a x,y,z coordinate. The name specifies the position with the volume that the chunk lies. The image below should help clarify this.
+Inside the folder targeted by the file path you specified earlier the script will create a sub-directory of each of the volumes it pulls. Inside each volume will be eight chunks that will each have 128 individual 128x128 images. Each chunk folder is given a name with a x,y,z coordinate. The name specifies the position inside the volume that the chunk is located. The image below should help clarify this.
 
 ![alt tag](https://raw.githubusercontent.com/goodwinj14/EyeWireAPI_Image_Data_Pull/master/eyeVolumeChunkCord.png)
 
