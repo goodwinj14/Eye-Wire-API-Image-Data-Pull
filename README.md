@@ -12,5 +12,7 @@ Once you have replaced the file path with your own you can simply run the script
 
 Inside the folder targeted by the file path you specified earlier the script will create a sub-directory of each of the volumes it pulls. Inside each volume will be eight chunks that will each have 128 individual 128x128 images. Each chunk folder is given a name with a x,y,z coordinate. The name specifies the position with the volume that the chunk lies. The image below should help clarify this.
 
+![alt tag](https://raw.githubusercontent.com/goodwinj14/EyeWireAPI_Image_Data_Pull/master/eyeVolumeChunkCord.png)
+
 
 
